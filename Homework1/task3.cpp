@@ -39,7 +39,7 @@ int main() {
     a[i] = new char[10];
   }
   clear(a, 5, 10);
-  char cmd[10];
+  char cmd[15];
   while (1) {
     std::cin >> cmd;
     if (strcmp(cmd, "quit") == 0) {
@@ -58,7 +58,7 @@ int main() {
     }
     if (strcmp(cmd, "text") == 0) {
       int x, y;
-      char* c = new char[10];
+      char* c = new char[15];
       std::cin >> x >> y >> c;
       if (!text(a, 5, 10, x, y, c, strlen(c))) {
         std::cout << "error\n";

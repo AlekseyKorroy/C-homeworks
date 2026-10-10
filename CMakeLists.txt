@@ -3,4 +3,4 @@ project(Homeworksc__)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Homeworksc__ task1.cpp)
+add_executable(Homeworksc__ main.cpp)
